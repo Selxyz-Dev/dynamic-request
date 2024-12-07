@@ -83,7 +83,7 @@ const request = require('dynamic-request');
     console.error('Error (HTTP):', error);
   }
 })();
- 
+ ```
 </details>
 <hr style="border: 1px solid #ddd;">
 <!-- Developers --> 

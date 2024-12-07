@@ -37,7 +37,8 @@
 </details>
 <details>
   <summary><strong>👨‍💻 Usages</strong></summary>
- ```javascript
+  
+```javascript
 const request = require('dynamic-request');
 
 // Request menggunakan HTTPS
@@ -80,7 +81,7 @@ const request = require('dynamic-request');
     console.error('Error (HTTP):', error);
   }
 })();
- 
+ ```
 </details>
 <hr style="border: 1px solid #ddd;">
 <!-- Developers --> 

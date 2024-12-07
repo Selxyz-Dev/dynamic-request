@@ -31,21 +31,23 @@
 <!-- Install dan Penggunaan -->
 <details>
   <summary><strong>💾 Installisasi</strong></summary>
-  <pre>
-  <code>npm i dynamic-request</code>
-  </pre>
+
+```bash
+npm i dynamic-request
+```
+
 </details>
 <details>
   <summary><strong>👨‍💻 Usages</strong></summary>
   
-```javascript
+ ```javascript
 const request = require('dynamic-request');
 
 // Request menggunakan HTTPS
 (async () => {
   try {
     const response = await request({
-      protocol: 'https', // Memilih HTTPS
+      request: 'https', // Memilih HTTPS
       method: 'GET',
       hostname: 'api.example.com',
       path: '/v1/data',
@@ -67,7 +69,7 @@ const request = require('dynamic-request');
 (async () => {
   try {
     const response = await request({
-      protocol: 'http', // Memilih HTTP
+      request: 'http', // Memilih HTTP
       method: 'GET',
       hostname: 'example.com',
       path: '/',
@@ -81,7 +83,7 @@ const request = require('dynamic-request');
     console.error('Error (HTTP):', error);
   }
 })();
- ```
+ 
 </details>
 <hr style="border: 1px solid #ddd;">
 <!-- Developers --> 
